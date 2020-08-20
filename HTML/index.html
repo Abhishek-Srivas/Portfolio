@@ -1,43 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
+    <!----Stylesheet-->
     <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-    
-    </head>
+    <!-------Using Font Awesome-->
+</head>
+
 <body>
-    <section>
+    <section id="main">
         <!----Navigation---->
         <nav>
             <!----logo---->
-            <a href="#" class="logo"><h1>LOGO</h1></a>
+            <a href="#" class="logo">
+                <h1>LOGO</h1>
+            </a>
             <!----Menu----->
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#main" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
 
         <!-------Intro----->
         <div class="Intro-container">
-                <p>Hi! I'm <font color="#17d1ac">Abhishek</font> Srivas</p>
-                <p>Front End Developer</p>
-                <p>Love Creating and Developing,</p>
-                <p>Love...Peace...Code</p>
-                <button class="CV-btn">Download CV</button>
-                <button class="Hire-btn">Let's Talk</button>
+            <p>Hi! I'm <font color="#17d1ac">Abhishek</font> Srivas</p>
+            <p>Front End Developer</p>
+            <p>Love Creating and Developing,</p>
+            <p>Love...Peace...Code</p>
+            <button class="CV-btn">Download CV</button>
+            <button class="Hire-btn">Let's Talk</button>
         </div>
 
-       <div class="DevPic"></div>
+        <div class="DevPic"></div>
+
+        <!------Arrow------>
+        <div class="arrow"></div>
     </section>
 
-   
-   
-    
+    <section id="about">
+
+        <div class="about-text">
+            <h1>About Me</h1>
+            <h2>FrontEnd Developer</h2>
+            <p>this is a random text because i have nothing to write now he he he this is a random text because i have nothing to write now he he he </p>
+            <button>View More Details</button>
+        </div>
+        
+        <div class="about-me">
+            <img alt="Developer Photo" src="/Images/About.JPG"> 
+        </div>
+       
+    </section>
+    <!------Services--------->
+    <section id="services">
+        <!------heading-->
+        <div class="ser-hed">
+            <h1><font color="#17d1ac">Hey</font>,Thanks For Visiting</h1>
+            <h2><font color="#ffffff">Mind's under construction,will be available soon...</font></h2>
+            <h3>Read this for the time being....</h3>
+        </div>
+    </section>
+
+    <!------Projects--------->
+    <section id="projects">
+        <h1 class="p-heading">Projects</h1>
+        <div class="project">
+        <div class="pr-box-container">
+            <!---box 1-->
+            <div class="pr-box">
+                <div class="text-overlay">
+                    <h1>Hospital Management System</h1>
+                    <p>A efficient way to store your records</p>
+                </div>
+                <img src="/Images/project.png" alt="img1" >
+            </div>
+            <!---box 2-->
+            <div class="pr-box">
+                <div class="text-overlay">
+                    <h1>Online Film Streaming Site</h1>
+                    <p>Watch HD movies for free</p>
+                </div>
+                <img src="/Images/work_place.png" alt="img1" >
+            </div>
+            <!---box 3-->
+            <div class="pr-box">
+                <div class="text-overlay">
+                    <h1>Food Delivery Website</h1>
+                    <p>Order your Favourite Food Online</p>
+                </div>
+                <img src="/Images/project.png" alt="img1" >
+            </div>         
+        </div>    
+            
+        </div>
+    </section>
+
+
+
+
 </body>
+
 </html>
