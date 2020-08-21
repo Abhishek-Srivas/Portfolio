@@ -244,7 +244,8 @@ nav ul li a{
 .about-me{
     width: 40vh;
     height: 50vh;
-    margin-right: 20vh;
+    margin-right: 10vh;
+    margin-left: 10vh;
 }
 
 .about-me img{
@@ -477,10 +478,17 @@ nav ul li a{
      .DevPic{
         height: 270px;
         width: 270px;
-        bottom:32vh;         
+        bottom:32vh;
+                 
     }
 
-   
+   .about-me img{
+        margin-left: 10vh;
+        width: 40vh;
+        height: 50vh;
+        margin-right: 5vh;
+       
+   }
 
     .pr-box{
         width: 200px;
@@ -528,6 +536,60 @@ nav ul li a{
     
 }
 
+@media(max-width:715px){
+    .about-me img{
+        display: none;
+       
+   }
+
+   #about{
+       padding: 0px 0px 0px 0px;
+       margin: 0px;
+   }
+   
+    .about-text{
+        font-family: calibri;
+        width: 100%;
+        margin-left:13vh ;
+        margin-right: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .about-text h1{
+        font-size: 3rem;
+        color:#17d1ac;
+    }
+    
+    .about-text h2{
+        font-size: 2rem;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    
+    .about-text h1,h2{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .about-text p{
+        font-size: 1rem;
+        color:rgba(251,251,251,.90);
+        margin-bottom: 2vh;
+    }
+    .about-text button{
+        width: 180px;
+        height: 40px;
+        border-radius: 16px;
+        border:none;
+        outline: none;
+        background-color: #17d1ac;
+    }
+
+   
+}
+
 
 
 
@@ -559,7 +621,7 @@ nav ul li a{
 @media(max-width:500px){
     .Intro-container{
         position: absolute;
-        left: 0px;
+        margin: 10vh;
         transform: translate(5%,-10%);
         top:38%;
     }
@@ -577,6 +639,18 @@ nav ul li a{
          margin: 25px 0px 25px;
      }
 
+     .ser-hed{
+         margin-left:5vh ;
+     }
 
+     .pr-box-container{
+         padding-left: 28vh;
+     }
 
+}
+
+@media(max-width:760px){
+    .pr-box-container{
+        padding-left: 27vh;
+    }
 }
