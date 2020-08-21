@@ -2,7 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 #main{
     
@@ -50,6 +53,7 @@ nav{
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+    background: solid;
 }
 
 nav ul{
@@ -80,6 +84,7 @@ nav ul li a{
    color: #6d6d6d;
    font-size: 60px;
    letter-spacing: 1px;
+   
 }
 
 .Intro-container p:nth-child(2){
@@ -88,6 +93,7 @@ nav ul li a{
     font-weight: bold;
     font-size: 30px;
     color: #403e3e;
+    
     
  }
 
@@ -115,6 +121,8 @@ nav ul li a{
     left: 13%;
     top:38%;
     transform: translate(15%,-10%);
+    display: flex;
+    flex-direction: column;
 }
 
 .Intro-container button{
@@ -152,8 +160,9 @@ nav ul li a{
     object-fit:cover;
     height: 300px;
     width: 300px;
+    display: flex;
     position:absolute;
-    left: 60%;
+    left: 70%;
     bottom:27vh;
     border-radius:50%;
     box-shadow: 1px 1px 20px rgb(45, 214, 186);
@@ -260,8 +269,8 @@ nav ul li a{
     box-sizing: border-box;
     font-family: calibri;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction:column;
+    justify-content:center;
     align-items: center;
     padding:60px 2% 20px 2%;
     background-color: #ffffff;
@@ -301,7 +310,7 @@ nav ul li a{
 .pr-box-container{
     width: 90%;
     height:70vh;
-    display: grid;
+    display:grid;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px;
@@ -342,4 +351,232 @@ nav ul li a{
 
 .pr-box:hover .text-overlay{
     display: flex;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7700;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+    padding:5px;
+    margin: 10px;
+    font-family: calibri;
+    letter-spacing: 2px;
+
+}
+
+.social{
+    position: relative;
+    display: flex;
+    
    }
+   .social a{
+    margin: 6px 12px;
+    
+   }
+   .social i{
+    color:rgba(18,17,17,0.40);
+    font-size: 30px;
+   }
+   .social a:hover i{
+    color:#17d1ac;
+    transition: all ease 0.5s;
+   }
+
+@media(max-width:1197px){
+
+
+    .Intro-container p:nth-child(1){
+        font-size: 50px;        
+     }
+     
+    .Intro-container p:nth-child(2){                 
+         font-size: 30px;      
+      }
+         
+     .Intro-container p{      
+         margin: 25px 0px 25px;
+     }
+
+     .DevPic{
+        height: 270px;
+        width: 270px;
+        bottom:32vh;         
+    }
+
+    
+    
+}
+
+@media(max-width:960px){
+
+    .DevPic{
+        display: none;
+    }
+
+    .pr-box-container{
+        margin-top: 0px;
+        display: flex; 
+        flex-wrap:wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0vh;
+        width: 100%;
+        height:100vh;
+        transform: translateX(-20vh);
+        
+    grid-template-columns: 0fr 0fr 0fr;
+    grid-gap: 100px;
+    margin-left: 10vh;
+        
+    }
+    .p-heading{
+        margin-top:5vh;
+        
+    }
+    .pr-box{
+        width: 250px;
+        height: 250px;
+        
+    }
+}
+
+@media(max-width:760px){
+
+    .Intro-container{
+        position: absolute;
+        left:5%;
+        top:38%;
+    }
+
+    .Intro-container p:nth-child(1){
+        font-size: 50px;
+                
+     }
+     
+    .Intro-container p:nth-child(2){                 
+         font-size: 30px;      
+      }
+         
+     .Intro-container p{      
+         margin: 25px 0px 25px;
+     }
+
+     .DevPic{
+        height: 270px;
+        width: 270px;
+        bottom:32vh;         
+    }
+
+   
+
+    .pr-box{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    nav ul{
+        margin: 0px;
+        padding: 0px;
+        background-color: #ebeef4;
+        flex-direction: column;
+        position: fixed;
+        left:0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index:1 ;
+        display: none;
+
+    }
+
+    nav ul li{
+        padding: 10px;
+    }
+
+    nav ul li a{
+        font-size:1.4rem;
+        text-transform: uppercase;
+        color: #5c5c5c;
+    }
+
+    nav ul li a:hover{
+        columns: #121212;;
+    }
+
+    .pr-box{
+        width: 120px;
+        height: 120px;   
+    }
+    
+}
+
+
+
+
+
+@media(max-width:620px){
+
+    .Intro-container{
+        position: absolute;
+        left: 0px;
+        transform: translate(10%,-10%);
+        top:38%;
+    }
+
+    .Intro-container p:nth-child(1){
+        font-size: 45px;
+                
+     }
+     
+    .Intro-container p:nth-child(2){                 
+         font-size: 25px;      
+      }
+         
+     .Intro-container p{      
+         margin: 25px 0px 25px;
+     }
+}
+
+
+@media(max-width:500px){
+    .Intro-container{
+        position: absolute;
+        left: 0px;
+        transform: translate(5%,-10%);
+        top:38%;
+    }
+
+    .Intro-container p:nth-child(1){
+        font-size: 30px;
+                
+     }
+     
+    .Intro-container p:nth-child(2){                 
+         font-size: 20px;      
+      }
+         
+     .Intro-container p{      
+         margin: 25px 0px 25px;
+     }
+
+
+
+}
