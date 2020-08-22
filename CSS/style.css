@@ -654,3 +654,19 @@ nav ul li a{
         padding-left: 27vh;
     }
 }
+
+@media(max-width:370px){
+    .Intro-container p:nth-child(1){
+        font-size: 1.3rem;
+        padding: 0px;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .pr-box{
+        padding: 0px;
+        margin: 0px;
+        height: 96px;
+        width: 96px;
+    }
+}
