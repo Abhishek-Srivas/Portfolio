@@ -338,15 +338,16 @@ nav ul li a{
 .text-overlay h1,p{
     color: #FFFFFF;
    }
-   .overlay-text h1{
-    font-size: 2.2rem;
+
+.text-overlay h1{
+    font-size: 1.2rem;
     margin: 0px;
     padding: 0px;
     letter-spacing: 2px;
     
    }
 .text-overlay p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0px;
     }
 
@@ -452,6 +453,22 @@ nav ul li a{
         height: 250px;
         
     }
+
+
+
+    .text-overlay h1{
+        font-size: 1rem;
+        margin: 0px;
+        padding: 0px;
+        letter-spacing: 2px;
+       
+        padding-left:3rem;
+        
+       }
+    .text-overlay p{
+        font-size: 1.2rem;
+        margin: 0px;
+        }
 }
 
 @media(max-width:760px){
@@ -587,10 +604,26 @@ nav ul li a{
         background-color: #17d1ac;
     }
 
+    .text-overlay h1{
+        font-size: 0.7rem;
+        margin: 0px;
+        padding: 0px;
+        letter-spacing: 2px;
+        
+       }
+    .text-overlay p{
+        font-size: 0.7rem;
+        margin: 0px;
+        }
+
    
 }
 
-
+@media(max-width:760px){
+    .pr-box-container{
+        padding-left: 27vh;
+    }
+}
 
 
 
@@ -616,11 +649,7 @@ nav ul li a{
          margin: 25px 0px 25px;
      }
 }
-@media(max-width:760px){
-    .pr-box-container{
-        padding-left: 27vh;
-    }
-}
+
 
 
 @media(max-width:550px){
