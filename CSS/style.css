@@ -155,7 +155,7 @@ nav ul li a{
 }
 
 .DevPic{
-    background-image: url(../Images/DP.jpeg);
+    background-image: url(/Images/DP.jpeg);
     background-size: cover;
     object-fit:cover;
     height: 300px;
@@ -655,7 +655,7 @@ nav ul li a{
     }
 }
 
-@media(max-width:370px){
+@media(max-width:460px){
     .Intro-container p:nth-child(1){
         font-size: 1.3rem;
         padding: 0px;
