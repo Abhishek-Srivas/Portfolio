@@ -616,9 +616,14 @@ nav ul li a{
          margin: 25px 0px 25px;
      }
 }
+@media(max-width:760px){
+    .pr-box-container{
+        padding-left: 27vh;
+    }
+}
 
 
-@media(max-width:500px){
+@media(max-width:550px){
     .Intro-container{
         position: absolute;
         margin: 10vh;
@@ -649,13 +654,8 @@ nav ul li a{
 
 }
 
-@media(max-width:760px){
-    .pr-box-container{
-        padding-left: 27vh;
-    }
-}
 
-@media(max-width:460px){
+@media(max-width:540px){
     .Intro-container p:nth-child(1){
         font-size: 1.3rem;
         padding: 0px;
@@ -669,4 +669,29 @@ nav ul li a{
         height: 96px;
         width: 96px;
     }
+}
+
+@media(max-width:380px){
+    .Intro-container p:nth-child(1){
+        font-size: 1.2rem;
+        padding: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0px;
+    }
+
+}
+
+@media(max-width:281px){
+
+    .Intro-container p:nth-child(1){
+        font-size: 0.8rem;
+}
+.Intro-container p:nth-child(2){
+    font-size: 0.7rem;
+}
+.Intro-container p:nth-child(3){
+    font-size: 0.66rem;
+}
+
 }
