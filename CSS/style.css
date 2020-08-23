@@ -99,7 +99,7 @@ nav ul li a{
 
  .Intro-container p:nth-child(3){ 
     font-family: sans-serif;
-    font-size: 12px;
+    font-size: 1.3rem;
     margin-bottom:relative;
     color: #403e3e; 
  }
@@ -107,7 +107,7 @@ nav ul li a{
  .Intro-container p:nth-child(4){ 
     margin-top:0px;
     font-family: sans-serif;   
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #403e3e; 
  }      
  
@@ -137,14 +137,14 @@ nav ul li a{
 }
 
 .CV-btn{
-    border: yellow 10px 10px;
     color: #373636;
-    border: none;
-    outline: aqua;
+    box-shadow:2px 2px 12px rgba(23, 209, 172, 0.69) ;
+    border: 0.09rem solid rgba(23, 209, 172, 0.69);
+    border-color:none;
 }
 
 .Hire-btn{
-    border:  10px 10px;
+   
     color: #ffffff;
     border: none;
     background-color: black;
